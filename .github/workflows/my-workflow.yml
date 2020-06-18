@@ -21,4 +21,8 @@ jobs:
       
     - name: hello-action
       uses: ./.github/actions/hello-world
+      with:
+        firstGreeting: "hi there, this is just like ansible"
+        secondGreeting: "hi again, this is very similar isn't it"
+        thirdGreeting: "ok this is pretty cool"
 
