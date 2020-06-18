@@ -1,0 +1,11 @@
+name: "my cat fact action"
+
+description: "Get external data with GitHub Actions"
+
+outputs:
+  fact:
+    description: "Returning cat fact from blah"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
